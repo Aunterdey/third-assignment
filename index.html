@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- daisyUI + tailwind cdn  -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <header class="bg-[#EFEBE3] bg-auto pt-5">
+   <nav class="justify-between">
+     <div class="flex justify-between px-24 m-auto">
+        <div>
+            <img src="img/logo-header.png" alt="">
+        </div>
+        <div class="flex">
+            <ul class="flex justify-between gap-6">
+                <li>product</li>
+                <li>service</li>
+                <li>contact us</li>
+            </ul>
+        </div>
+        <div class="flex gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+</svg>
+      <button class="border-green-500 btn border-solid h-10 w-20">login</button>
+      <button class="btn btn-success text-white">Register</button>
+        </div>
+     </div>
+   </nav>
+   <!-- banner started  -->
+   <div class="grid grid-cols my-7 mx-9 items-center text-center px-72">
+    <!-- div for banner text  -->
+    <div class="space-y-7 items-center text-center">
+       <h1 class="text-3xl font-bold">Freshness 
+        <span class="text-green-500">
+        You Can <br>
+        Count On
+       </span>, Prices You’ll Love!</h1>
+        <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+    </div>
+    <!-- div for picture  -->
+    <div class="justify-center items-center">
+      <img class="items-center justify-center" src="img/hero-vegetables.png" alt="">
+    </div>
+   </div>
+  </header>
+  <main>
+    <!-- serviec section  -->
+     <section class="pt-12 px-36 pl-0 lg:pl-24 lg:pb-24">
+     <h2 class="text-3xl text-green-600 font-semibold pb-5 pl-24">Services</h2>
+     <!-- service card container  -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:m-auto mb-5">
+        <!-- service card 1 -->
+         <div class=" rounded-3xl py-9 card bg-base-100 w-96 shadow-xl items-center bg-[#EFEBE3] h-90 w-100">
+            <div class="h-20 w-20 rounded-full justify-center  bg-[#ffff]"><img class="h-14 w-14 justify-center pt-5"  src="img/service.png" alt=""></div>
+            <h3 class="text-xl font-semibold">24/7 Services </h3>
+           <p class="px-7">service system process ar always open for every customer .so any problem will be solved at any time.And customer come at any time.</p>
+         </div>
+         <!-- service card 2 -->
+         <div class=" rounded-3xl py-9 card bg-base-100 w-96 shadow-xl items-center bg-[#EFEBE3] h-90 w-100">
+            <div class="h-20 w-20 rounded-full justify-center  bg-[#ffff]"><img class="h-14 w-14 justify-center pt-5"  src="img/service.png" alt=""></div>
+            <h3 class="text-xl font-semibold">24/7 Services </h3>
+           <p class="px-7">service system process ar always open for every customer .so any problem will be solved at any time.And customer come at any time.</p>
+         </div>
+         <!-- service card 3  -->
+         <div class=" rounded-3xl py-9 card bg-base-100 w-96 shadow-xl items-center bg-[#EFEBE3] h-90 w-100">
+            <div class="h-20 w-20 rounded-full justify-center  bg-[#ffff]"><img class="h-14 w-14 justify-center pt-5"  src="img/service.png" alt=""></div>
+            <h3 class="text-xl font-semibold">24/7 Services </h3>
+           <p class="px-7">service system process ar always open for every customer .so any problem will be solved at any time.And customer come at any time.</p>
+         </div>
+      </div>
+     </section>
+
+<!-- popular product section rasik vai  -->
+<section class="bg-[#EFEBE3] w-auto h-3/5">
+  <h1 class="text-3xl text-green-600 font-semibold pb-5 pl-36 pt-12 lg:ml-5">Popular Products</h1>
+  <div class="grid lg:grid-cols-2 justify-between pr-32 ml-5 gap-5">
+    <div class="grid grid-cols-1 bg-gradient-to-r from-green-500 to-green-300 pl-4 lg:ml-36 rounded-3xl card w-96 shadow-xl h-96">
+     <h1 class="pt-9 pl-9 font-bold text-3xl text-white pb-4">30% off</h1>
+     <p class="pb-4 pl-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illum vel praesentium dolorem nemo temporibus sint maxime nisi est tempore.</p>
+     <button class="btn bg-[#ffff] w-24 ml-9">buy now</button>
+     <img class="h-24 justify-end pl-20 ml-24" src="img/vegetable-offer.png" alt="">
+    </div>
+    <div class="grid grid-cols-3 rounded-3xl gap-5 w-full border bl-4">
+      <div class="flex flex-row gap-3 card rounded-1xl bg-[#ffff]">
+        <div>
+          <img class="h-20 w-20 rounded-2xl" src="img/onion.jpg" alt="">
+        </div>
+      <div>
+        <h3 class="xl">4.5</h3>
+        <h1 class="font-semibold text-2xl">onion 1 kg</h1>
+        <h3 class="text-2xl">$76</h3>
+      </div>
+      </div>
+      <div class="flex flex-row gap-3 card rounded-1xl bg-[#ffff]">
+        <div>
+          <img  class="h-20 w-20 rounded-2xl" src="img/onion.jpg" alt="">
+        </div>
+      <div>
+        <h3 class="xl">4.5</h3>
+        <h1 class="font-semibold text-2xl">onion 1 kg</h1>
+        <h3 class="text-2xl">$76</h3>
+      </div>
+      </div>
+      <div class="flex flex-row gap-3 card rounded-1xl bg-[#ffff]">
+        <div>
+          <img  class="h-20 w-20 rounded-2xl" src="img/onion.jpg" alt="">
+        </div>
+      <div>
+        <h3 class="xl">4.5</h3>
+        <h1 class="font-semibold text-2xl">onion 1 kg</h1>
+        <h3 class="text-2xl">$76</h3>
+      </div>
+      </div>
+      <div class="flex flex-row gap-3 card rounded-1xl bg-[#ffff]">
+        <div>
+          <img  class="h-20 w-20 rounded-2xl" src="img/onion.jpg" alt="">
+        </div>
+      <div>
+        <h3 class="xl">4.5</h3>
+        <h1 class="font-semibold text-2xl">onion 1 kg</h1>
+        <h3 class="text-2xl">$76</h3>
+      </div>
+      </div>
+      <div class="flex flex-row gap-3 card rounded-1xl bg-[#ffff]">
+        <div>
+          <img  class="h-20 w-20 rounded-2xl" src="img/onion.jpg" alt="">
+        </div>
+      <div>
+        <h3 class="xl">4.5</h3>
+        <h1 class="font-semibold text-2xl">onion 1 kg</h1>
+        <h3 class="text-2xl">$76</h3>
+      </div>
+      </div>
+      <div class="flex flex-row gap-3 card rounded-1xl bg-[#ffff]">
+        <div>
+          <img  class="h-20 w-20 rounded-2xl" src="img/onion.jpg" alt="">
+        </div>
+      <div>
+        <h3 class="xl">4.5</h3>
+        <h1 class="font-semibold text-2xl">onion 1 kg</h1>
+        <h3 class="text-2xl">$76</h3>
+      </div>
+      </div>
+      <div class="flex flex-row gap-3 card rounded-1xl bg-[#ffff]">
+        <div>
+          <img  class="h-20 w-20 rounded-2xl" src="img/onion.jpg" alt="">
+        </div>
+      <div>
+        <h3 class="xl">4.5</h3>
+        <h1 class="font-semibold text-2xl">onion 1 kg</h1>
+        <h3 class="text-2xl">$76</h3>
+      </div>
+      </div>
+      <div class="flex flex-row gap-3 card rounded-1xl bg-[#ffff]">
+        <div>
+          <img  class="h-20 w-20 rounded-2xl" src="img/onion.jpg" alt="">
+        </div>
+      <div>
+        <h3 class="xl">4.5</h3>
+        <h1 class="font-semibold text-2xl">onion 1 kg</h1>
+        <h3 class="text-2xl">$76</h3>
+      </div>
+      </div>
+      <div class="flex flex-row gap-3 card rounded-1xl bg-[#ffff]">
+        <div>
+          <img  class="h-20 w-20 rounded-2xl" src="img/onion.jpg" alt="">
+        </div>
+      <div>
+        <h3 class="xl">4.5</h3>
+        <h1 class="font-semibold text-2xl">onion 1 kg</h1>
+        <h3 class="text-2xl">$76</h3>
+        
+      </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- varrival and offer section  -->
+   <section>
+    <h1 class="text-3xl font-semibold pt-24 pb-4 pl-36 text-green-600">Arrival & Offers</h1>
+   </section>
+  </main> 
+</body>
+</html>
